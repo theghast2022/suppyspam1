@@ -7,7 +7,7 @@ client.on('ready', () => {
 });
 
 client.on('ready', async() => {
-var server = "515582355625476118"; // ايدي السررفر
+var server = "515582404128145408"; // ايدي السررفر
 var channel = "515585731322839041";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**XPRO, XPRO , XPRO, XPRO ,XPRO, XPRO ,XPRO, XPRO ,XPRO, XPRO ,XPRO, XPRO ,XPRO, XPRO ,XPRO, XPRO ,XPRO, XPRO ,XPRO, **')
@@ -29,6 +29,5 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
    message.delete()
   }
  });
-
 
 client.login(process.env.BOT_TOKEN);
